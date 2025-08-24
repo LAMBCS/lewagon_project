@@ -14,7 +14,7 @@ concatenate the two series."""
 
     gold_price_data = pd.concat([first_gold_price.query("Date < '2004-06-11'")['USD'], second_gold_price.query("Date >= '2004-06-11'")["Close"]], axis=0)
 
-    gold_price_data_df = pd.DataFrame(gold_price_data, columns=['Close'])
+    gold_price_data_df = pd.DataFrame(gold_price_data, columns=['closing_gold'])
 
     gold_price_data_df.to_csv("/Users/shogun/code/LAMBCS/lewagon_project/data/hostorical_gold_price_1985-01-07_2025_07_15.csv")
 
