@@ -72,4 +72,4 @@ However, as we progress I think it will be easier to predict percentage changes 
 
 Train, test, validation.
 
-We don't have that much data.  We can increase it by taking sequences in sequences
+We don't have that much data.  We can increase it by taking sequences in sequences (say 90 * 3500ish, so c. 300,000).  I imagne a 80% 20% split between Train and test.  Further I imagine an 80% 20% split between train and validation.
