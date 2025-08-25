@@ -70,6 +70,8 @@ I believe we are going to need dynamic normalisation.  For the first day we can 
 
 However, as we progress I think it will be easier to predict percentage changes and that will demand that the first sequence we train on will be movement zero.  This would mean normalising the Y so that we train on percentage changes.
 
+If the whole data set is changed to percentage movement from say the previous day then we would probably be able to do Simple Scaling.
+
 Train, test, validation.
 
-We don't have that much data.  We can increase it by taking sequences in sequences (say 90 * 3500ish, so c. 300,000).  I imagne a 80% 20% split between Train and test.  Further I imagine an 80% 20% split between train and validation.
+We don't have that much data, c.5000 dates.  We can increase it by taking sequences in sequences (say 90 * 3500ish, so c. 300,000).  I imagne a 80% 20% split between Train and test.  Further I imagine an 80% 20% split between train and validation.
