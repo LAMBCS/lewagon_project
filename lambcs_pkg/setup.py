@@ -1,5 +1,5 @@
 from setuptools import setup
 
-setup(name='dataprep',
-      description='data preparation for le wagon project',
-      packages=['dataprep'])
+setup(name='lambcs_pkg',
+      description='packages for the le wagon project',
+      packages=['dataprep','img'])
